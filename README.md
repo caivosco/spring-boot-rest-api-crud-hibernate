@@ -13,9 +13,33 @@ Ok, for this repository I am showing four projects to perfom CRUD operations on 
 
 Now, I will show some screenshot that I took when I was testing the code with PostMan... In general for the first three projects the response is similar, the differences is in how you implement operations on the back-end to perform them. The project with Spring data JPA is less boilerplate than the two former: Hibernate and JPA. Why?  Because you do not need to write code for every operation like: get, put, delete or post. They are implemented by Spring Data JPA!
 
+Table where the operations are performed 
+![Initial Table](https://github.com/caivosco/spring-boot-rest-api-crud-hibernate/blob/main/cruddemo/cruddemo/src/main/resources/images/SQL_table_init.png)
+
+Some examples with Postman - (The results are similar for the first three projects)
+
+![a](https://github.com/caivosco/spring-boot-rest-api-crud-hibernate/blob/main/cruddemo/cruddemo/src/main/resources/images/postman_get.png)
 
 
-In this last part, I will show some screnshoot when I was testing basic CRUD operations via Postman in the last project: Spring Data Rest. This library has more advanced features like pagination, sorting and send responses according to HATEOAS specification. 
+![a](https://github.com/caivosco/spring-boot-rest-api-crud-hibernate/blob/main/cruddemo/cruddemo/src/main/resources/images/postman_post.png)
+
+
+![a](https://github.com/caivosco/spring-boot-rest-api-crud-hibernate/blob/main/cruddemo/cruddemo/src/main/resources/images/postman_put.png)
+
+
+![a](https://github.com/caivosco/spring-boot-rest-api-crud-hibernate/blob/main/cruddemo/cruddemo/src/main/resources/images/postman_delete.png)
+
+In this last part, I will show some screnshoot when I was testing basic CRUD operations via Postman in the last project: Spring Data Rest. This library has more advanced features like pagination, sorting and send responses according to HATEOAS specification. And of course CRUD operations are included in the library like it was in Spring data JPA. 
+
+![a](https://github.com/caivosco/spring-boot-rest-api-crud-hibernate/blob/main/cruddemo/cruddemo/src/main/resources/images/hate_oas_info_get.png)
+
+![a](https://github.com/caivosco/spring-boot-rest-api-crud-hibernate/blob/main/cruddemo/cruddemo/src/main/resources/images/hate_oas_info_post.png)
+
+![a](https://github.com/caivosco/spring-boot-rest-api-crud-hibernate/blob/main/cruddemo/cruddemo/src/main/resources/images/hate_oas_info_put.png)
+
+![a](https://github.com/caivosco/spring-boot-rest-api-crud-hibernate/blob/main/cruddemo/cruddemo/src/main/resources/images/hate_oas_info_delete.png)
+
+![a](https://github.com/caivosco/spring-boot-rest-api-crud-hibernate/blob/main/cruddemo/cruddemo/src/main/resources/images/hate_oas_sorting.png)
 
 ## Technologies
 
